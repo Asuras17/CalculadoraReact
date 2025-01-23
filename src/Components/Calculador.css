@@ -1,0 +1,58 @@
+button {
+    width: 3em;
+    height: 3em;
+    font-size:1.5em;   
+    border:none; 
+    border-radius: 2em;
+    margin: 0.4em;   
+}
+
+/* Cursor do ponteiro */
+
+button:hover {
+    cursor: pointer
+}
+
+/* corpo da calculadora */
+
+.box {
+    background-color: black;
+    border-radius: 1.5em;
+    padding: 1em;
+    max-width: 430px;
+    margin: 0 auto;
+    box-shadow: 0px 3px 20px;
+    text-align: center;
+    margin-top: 7%;
+}
+ 
+/* Declarando as cores dos Botões*/
+
+ .laranja {
+    background-color: #FF9500;
+    color: white;
+}
+
+.cinza {
+    background-color: #505050;
+    color: white;
+}
+
+.preto {
+    background-color: #1f1e1e;
+    color: white;
+}
+
+.preto1 {
+    background-color: #1f1e1e;
+    color: white;
+    width: 160px;
+}
+
+.resultado {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+    font-size: 3em;
+}
