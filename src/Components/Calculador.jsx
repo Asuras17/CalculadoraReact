@@ -7,6 +7,7 @@ export default function Calculador() {
   const [oldnum, setOldNum] = useState("0");
   const [operador, setOperador] = useState("");
 
+  {/*funções de logica para funcionamento da calculadora*/}  
   function inputNum(e) {
     const input = e.target.textContent;
     setNum((prevNum) => {
